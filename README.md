@@ -1,4 +1,6 @@
-<include a CircleCI status badge, here>
+PROJECT_NAME:operationalize a Machine Learning Microservice API 
+VCS: GitHub
+LINK: https://app.circleci.com/pipelines/github/kent5i5/dockerproject 
 
 ## Project Overview
 
