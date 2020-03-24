@@ -1,6 +1,6 @@
 PROJECT_NAME:operationalize a Machine Learning Microservice API 
 VCS: GitHub
-LINK: !https://circleci.com/gh/kent5i5/dockerproject/tree/master.svg?style=svg!:https://circleci.com/gh/kent5i5/dockerproject/tree/master
+LINK: https://circleci.com/gh/kent5i5/dockerproject/tree/master.svg?style=svg
 
 ## Project Overview
 
