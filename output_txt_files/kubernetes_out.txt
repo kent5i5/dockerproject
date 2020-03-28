@@ -1,1 +1,10 @@
 <paste log output from Kubernetes-mediated prediction, here>
+
+^C(.devops) yings-MBP:project4 yingkitng$ ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "proj4" already exists
+NAME                         READY   STATUS    RESTARTS   AGE
+hazelcast-79c896c75b-g5m5c   1/1     Running   0          9m15s
+proj4                        1/1     Running   0          9m8s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
