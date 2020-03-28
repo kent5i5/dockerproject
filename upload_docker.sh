@@ -10,7 +10,7 @@ dockerpath="yinkin/udacity"
 
 # Step 2:  
 # Authenticate & tag
-docker login -p --username=yinkin --email=califorykng5i5@gmail.com
+docker login --username=yinkin --email=califorykng5i5@gmail.com
 docker tag 4044257fc521 $dockerpath
 echo "Docker ID and Image: $dockerpath"
 
