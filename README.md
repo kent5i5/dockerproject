@@ -42,3 +42,17 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### short explanation of the files
+
+* ./cicleci/config.yml - a config file used to set up my dockerfile project in circleci connecting my GitHub docker project repository.
+
+* Makefile - contains all make commands that used to create the python environment and linting the application. 
+
+* app.py - the application used to do the prediction
+
+* requirement.txt - list of python add-on required, make command use this file to install the require app for the environment. 
+
+* run_docker.sh - automated script used to create docker image and run the app after it is created.
+
+* upload_docker.sh - upload the image created from run_docker.sh and put it into docker hub repo
